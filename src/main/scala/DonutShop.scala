@@ -21,6 +21,7 @@ object DonutShopTest extends App {
     }
   }
   val CURRENT_STOCKS = Map("Pancit Canton Donut Flavor" -> 15, "Spicy Pancit Canton Bavarian Flavor" -> 2)
+  println(CURRENT_STOCKS)
   val ANOTHER_NEW_STOCKS_HAS_ARRIVED = DonutShop.addStock(CURRENT_STOCKS, "Spicy Pancit Canton Bavarian Flavor", 2)
   println(ANOTHER_NEW_STOCKS_HAS_ARRIVED)
   val UPDATED_STOCKS = DonutShop.addNewFlavor(CURRENT_STOCKS, "Donutsilog", 8)

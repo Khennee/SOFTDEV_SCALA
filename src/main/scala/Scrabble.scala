@@ -47,6 +47,7 @@ object ScrabbleScoreUnitTest extends App {
   println(ScrabbleScore.calculateScore("") == 0)
   println(ScrabbleScore.calculateScore("krazy") == 300)
   println(ScrabbleScore.calculateScore("JuStinEbIebEr") == 10)
+  println(ScrabbleScore.calculateScore("MichaelHeeHee") == 21)
   println()
   println("TEST FINISHED.")
 }
