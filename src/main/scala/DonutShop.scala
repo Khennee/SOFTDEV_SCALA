@@ -1,4 +1,4 @@
-object DonutShop_TEST extends App {
+object TEST_DonutShop extends App {
   object DonutShop {
 
     def addStock(STOCKS: Map[String, Int], FLAVOR: String, QUANTITY: Int): Map[String, Int] = {
