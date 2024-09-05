@@ -1,4 +1,4 @@
-object ScrabbleScoreUnitTest extends App {
+object ScrabbleScore_TEST extends App {
   object ScrabbleScore {
     val LETTER_SCORES: Map[Char, Int] = Map(
       'A' -> 1,
